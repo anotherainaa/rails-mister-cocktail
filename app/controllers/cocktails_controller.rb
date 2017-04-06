@@ -16,9 +16,12 @@ class CocktailsController < ApplicationController
     else
       render 'new'
     end
+
   end
 
   def show
+    @dose = Dose.new
+    @ingredients = Ingredient.all
   end
 
   private
