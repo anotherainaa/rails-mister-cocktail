@@ -9,9 +9,9 @@ Ingredient.destroy_all
 puts "Destroying all ingredients"
 puts "Making new ones..."
 
-Ingredient.create(name: "lemon")
-Ingredient.create(name: "ice")
-Ingredient.create(name: "mint leaves")
+# Ingredient.create(name: "lemon")
+# Ingredient.create(name: "ice")
+# Ingredient.create(name: "mint leaves")
 
 ingredients = RestClient.get "http://www.thecocktaildb.com/api/json/v1/1/list.php?i=list"
 ingredients_repo = JSON.parse(ingredients)
