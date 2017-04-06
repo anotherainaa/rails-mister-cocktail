@@ -1,0 +1,25 @@
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,140,0.2) 0%, rgba(0,36,61,0.4  ) 50%), url('http://www.mrwallpaper.com/wallpapers/Beach-Cocktail-1024x576.jpg');">
+
+
+  <div class="banner-content">
+    <h1>Cocktail Party</h1>
+    <p>...by the beach</p>
+<!--     <a class="btn btn-primary btn-lg">GET IT</a> -->
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+      <ul class="list-unstyled">
+          <% @cocktails.each do |cocktail| %>
+          <div class="col-xs-12 col-sm-4">
+          <div class="card">
+          <li class="text-center">
+  <%= link_to cocktail.name, cocktail_path(cocktail) %></li></div>
+        </div>
+  <% end %>
+
+</ul>
+
+</div>
