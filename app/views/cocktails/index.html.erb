@@ -10,10 +10,8 @@
 
     <ul class="list-unstyled">
       <% @cocktails.each do |cocktail| %>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card-cocktails" style="background-image:>
-
-
+      <div class="col-xs-12 col-sm-3">
+        <div class="card-cocktails" style="background-image: url( '<%= cocktail.photo %>' )">
         <li class="text-center">
         <h3><%= link_to cocktail.name, cocktail_path(cocktail) %></h3>
         </li></div>
@@ -22,3 +20,5 @@
     </ul>
   </div>
 </div>
+
+

@@ -8,6 +8,11 @@ class PhotoUploader < CarrierWave::Uploader::Base
   version :standard do
     resize_to_fit 250, 250
   end
+
+  version :card do
+    resize_to_fit 75, 75
+  end
+
 end
 
 # encoding: utf-8

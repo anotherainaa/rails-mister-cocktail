@@ -1,12 +1,14 @@
 .card-cocktails {
   // background-size: cover !important;
-  background-color: #A3DECD;
+  background-color: white;
   color: #FF0080;
   position: relative;
   border-radius: 10px;
   margin: 5%;
-  height: 200px;
-  width: 350px;
+  height: 300px;
+  background-size: 80% auto;
+  background-position:center;
+  background-repeat:no-repeat;
 }
 
 .card-add-description {
