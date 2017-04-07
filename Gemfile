@@ -17,6 +17,8 @@ gem 'puma', '~> 3.0'
 gem 'json'
 gem 'rest-client'
 gem 'figaro'
+gem 'cloudinary'
+gem 'carrierwave', '~> 0.11.2'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
