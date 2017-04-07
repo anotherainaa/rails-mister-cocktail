@@ -1,12 +1,16 @@
-.card {
-  background-size: cover !important;
+.card-cocktails {
+  // background-size: cover !important;
+  background-color: #A3DECD;
+  color: #FF0080;
   position: relative;
-  border: 1px solid #000000;
-  border-radius: 25px;
+  border-radius: 10px;
   margin: 5%;
+  height: 200px;
+  width: 350px;
 }
 
 .card-add-description {
-  height: 150px;
+  height: 200px;
   width: 500px;
 }
+

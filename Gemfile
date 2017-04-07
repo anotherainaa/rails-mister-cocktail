@@ -16,6 +16,7 @@ gem 'puma', '~> 3.0'
 
 gem 'json'
 gem 'rest-client'
+gem 'figaro'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
